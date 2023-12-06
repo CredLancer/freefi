@@ -3,10 +3,12 @@ import { Button } from "@/components/ui/button"
 import '@rainbow-me/rainbowkit/styles.css';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import HeroSection from '@/components/hero-section';
+import HowWorksSection from '@/components/how-works-section';
 
 export default function Home() {
   return (
-    // <main className="flex flex-col items-center justify-between p-24">
+    <>
+    {/* // <main className="flex flex-col items-center justify-between p-24">
     //   <div className="items-center justify-center">
     //     <ConnectButton />
     //     </div>     
@@ -14,7 +16,9 @@ export default function Home() {
     //     <div className="items-center justify-center">
     //     <Button>Click me</Button>
     //   </div>
-    // </main>
-      <HeroSection />    
+    // </main> */}
+      <HeroSection />
+      <HowWorksSection />    
+      </>
       )
 }

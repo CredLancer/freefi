@@ -4,7 +4,7 @@ import { JSX, SVGProps } from "react"
 
 export default function PurposeSection() {
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white py-48 ">
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h2 className="text-4xl font-semibold mb-4">Welcome to LancerLoan</h2>

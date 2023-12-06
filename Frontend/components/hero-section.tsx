@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export default function HeroSection() {
   return (
-    <div className="bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 pt-[230px] pb-[150px] flex flex-col items-center justify-center text-center px-4">
+    <div className="bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 pt-[200px] pb-[150px] flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-4xl font-bold mb-4 leading-snug">LancerLoans</h1>
       <h1 className="text-7xl font-bold mb-4 leading-snug">
         Supercharge Your

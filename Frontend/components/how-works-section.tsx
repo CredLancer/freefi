@@ -4,7 +4,7 @@ import { JSX, SVGProps } from "react"
 export default function HowWorksSection() {
     return (
       <div className="bg-[#2c2541] text-white">
-        <div className="container mx-auto px-4 py-20">
+        <div className="container mx-auto px-4 py-24">
           <h2 className="text-4xl font-bold text-center mb-16">How LancerLoans Works for You</h2>
           <div className="flex justify-between">
             <div className="w-1/3 px-4">

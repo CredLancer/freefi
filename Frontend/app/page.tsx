@@ -4,6 +4,8 @@ import '@rainbow-me/rainbowkit/styles.css';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import HeroSection from '@/components/hero-section';
 import HowWorksSection from '@/components/how-works-section';
+import App from 'next/app';
+import ApplyForLoanSection from '@/components/apply-for-loan-section';
 
 export default function Home() {
   return (
@@ -18,7 +20,8 @@ export default function Home() {
     //   </div>
     // </main> */}
       <HeroSection />
-      <HowWorksSection />    
+      <HowWorksSection />
+      <ApplyForLoanSection />
       </>
       )
 }

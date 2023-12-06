@@ -1,7 +1,4 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/RKONCbzGmoK
- */
+
 import { Button } from "@/components/ui/button"
 
 export default function ApplyForLoanSection() {

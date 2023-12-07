@@ -6,7 +6,7 @@ export default function FooterSectionWhite() {
           <div className="text-right">
             <p className="text-xl font-semibold text-gray-700">Contact</p>
             <p className="text-xl text-gray-700">+1-123-456-7890.</p>
-            <p className="text-xl text-gray-700">support@lancerloans.com</p>
+            <p className="text-xl text-gray-700">support@FreeFi.com</p>
           </div>
         </div>
       </footer>

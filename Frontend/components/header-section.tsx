@@ -33,7 +33,7 @@ export default function HeaderSection() {
               </SheetContent>
             </Sheet>
             <Link href="/" className="ml-4 lg:ml-0">
-              <h1 className="text-xl font-bold">LancerLoans</h1>
+              <h1 className="text-xl font-bold">FreeFi</h1>
             </Link>
           </div>
 

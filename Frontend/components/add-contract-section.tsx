@@ -1,7 +1,17 @@
+"use client"
 
+import { useRouter } from 'next/navigation'
 import { Button } from "@/components/ui/button"
 
 export default function AddContractSection() {
+
+  const router = useRouter();
+
+  const sectionAction = () => {
+    console.log("Add Contract Action");
+    router.push("/submit");
+  };
+
   return (
     <div key="1" className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-3xl font-bold text-center mb-4">Apply for the Loan</h1>
@@ -36,7 +46,11 @@ export default function AddContractSection() {
         </div>
       </div>
       <div className="mt-6 flex justify-center">
-        <Button className="bg-[#CEFB7B] hover:bg-[#DAFB9D] text-black rounded-md transition-colors duration-200">Apply Now</Button>
+        <Button 
+        className="bg-[#CEFB7B] hover:bg-[#DAFB9D] text-black rounded-md transition-colors duration-200"
+        onClick={ () => sectionAction()}>
+          Apply Now
+        </Button>
       </div>
     </div>
   )

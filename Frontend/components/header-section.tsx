@@ -23,11 +23,11 @@ export default function HeaderSection() {
                     <Link href="/" className="block px-2 py-1 text-lg">
                     Home
                     </Link>
-                    <Link href="/purpose" className="block px-2 py-1 text-lg">
+                    <Link href="/dashboard" className="block px-2 py-1 text-lg">
                     Dashboard
                     </Link>
-                    <Link href="/purpose" className="block px-2 py-1 text-lg">
-                    Participate
+                    <Link href="/add-contract" className="block px-2 py-1 text-lg">
+                    Request Loan
                     </Link>
                 </nav>
               </SheetContent>
@@ -44,13 +44,13 @@ export default function HeaderSection() {
                   </Link>
               </Button>
               <Button asChild variant="ghost">
-                  <Link href="/purpose" className="text-sm font-medium transition-colors">
+                  <Link href="/dashboard" className="text-sm font-medium transition-colors">
                       Dashboard
                   </Link>
               </Button>
               <Button asChild variant="ghost">
-                  <Link href="/purpose" className="text-sm font-medium transition-colors">
-                      Participate
+                  <Link href="/add-contract" className="text-sm font-medium transition-colors">
+                      Request Loan
                   </Link>
               </Button>
           </nav>

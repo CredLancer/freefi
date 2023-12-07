@@ -1,8 +1,20 @@
 
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Slider } from "@/components/ui/slider"
+import { useRouter } from 'next/navigation'
 
 export default function SubmitSection() {
+
+  const router = useRouter();
+
+  const goDashboardAction = () => {
+    console.log("Request Loan Action");
+    router.push("/dashboard");
+  };
+
+
   return (
     <div className="text-black bg-white py-32 px-8">
 
@@ -44,7 +56,11 @@ export default function SubmitSection() {
           <div className="px-8">
             <p className="mt-8 mb-4 font-semibold text-center md:text-left">Would you like to submit?</p>
             <div className="flex justify-center md:justify-start">
-              <Button className="bg-[#CEFB7B] hover:bg-[#DAFB9D] text-black rounded-md font-bold py-2 px-4 mr-2">Yes</Button>
+              <Button 
+              className="bg-[#CEFB7B] hover:bg-[#DAFB9D] text-black rounded-md font-bold py-2 px-4 mr-2"
+              onClick={ () => goDashboardAction()}>
+                Yes
+              </Button>
               <Button className="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded">
                 No, I want more
               </Button>

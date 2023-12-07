@@ -1,8 +1,19 @@
+"use client"
+
+import { useRouter } from 'next/navigation'
 
 import { CardContent, Card } from "@/components/ui/card"
 import { JSX, SVGProps } from "react"
 
 export default function PurposeSection() {
+
+  const router = useRouter();
+
+  const requestLoanAction = () => {
+    console.log("Request Loan Action");
+    router.push("/add-contract");
+  };
+
   return (
     <div className="bg-white py-48 ">
       <div className="container mx-auto px-4">
@@ -11,18 +22,23 @@ export default function PurposeSection() {
           <p className="text-xl mb-12">Platform to provide talent based loans</p>
         </div>
         <div className="flex justify-center space-x-8">
-          <Card className="w-[350px] py-[50px]">
+
+          <Card 
+          className="w-[350px] py-[50px]"
+          onClick={ () => requestLoanAction()}>
             <CardContent className="flex flex-col items-center p-6">
               <MoneyIcon className="h-12 w-12 mb-4" />
               <h3 className="text-xl font-semibold mb-2">I want a Loan</h3>
             </CardContent>
           </Card>
+
           <Card className="w-[350px] py-[50px]">
             <CardContent className="flex flex-col items-center p-6">
               <RocketIcon className="h-12 w-12 mb-4" />
               <h3 className="text-xl font-semibold mb-2">I want to Invest in Talent</h3>
             </CardContent>
           </Card>
+
         </div>
       </div>
     </div>

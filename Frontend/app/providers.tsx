@@ -24,7 +24,7 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-  appName: 'FreeFi',
+  appName: 'FreedFi',
   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID as string,
   chains,
 });
@@ -37,7 +37,7 @@ const wagmiConfig = createConfig({
 });
 
 const demoAppInfo = {
-    appName: 'FreeFi',
+    appName: 'FreedFi',
   };
 
 export function Providers({ children }: { children: React.ReactNode }) {

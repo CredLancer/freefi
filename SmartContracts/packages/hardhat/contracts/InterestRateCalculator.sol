@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.13;
-import "utils/SignedWadMath.sol";
-import "utils/FixedPointMathLib.sol";
+import "./utils/SignedWadMath.sol";
+import "./utils/FixedPointMathLib.sol";
 
 contract InterestRateCalculator {
     using FixedPointMathLib for uint256;

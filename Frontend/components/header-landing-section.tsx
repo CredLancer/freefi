@@ -12,14 +12,13 @@ import { Sheet, SheetContent, SheetTrigger } from "../components/ui/sheet";
 import { Menu, Moon, Sun } from "lucide-react";
 import GetStartedButtonHeader from './get-started-button-header';
 
-
-export default function HeaderSection() {
+export default function HeaderLandingSection() {
 
   const { isConnected, address } = useAccount();
 
   return (
-    <div className="px-12 py-6">
-        <div className="bg-white rounded-lg flex justify-between items-center px-6 py-4 shadow-sm border-grey border-[1px]">
+    <div className="bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 px-12 py-6">
+        <div className="rounded-lg flex justify-between items-center px-6 py-4 shadow-sm border-grey border-[1px]">
 
             <div className="flex items-center">
             <Sheet>
@@ -28,7 +27,7 @@ export default function HeaderSection() {
               </SheetTrigger>
               <SheetContent side="left" className="w-[300px] sm:w-[400px]">
                 <nav className="flex flex-col gap-4">
-                {isConnected && (
+                  {isConnected && (
                     <>
                       <Link href="/" className="block px-2 py-1 text-lg">
                       Home
@@ -50,7 +49,7 @@ export default function HeaderSection() {
           </div>
 
             <nav className="mx-4 flex items-center space-x-2 lg:space-x-4 hidden md:block">
-            { isConnected && (
+              { isConnected && (
                 <>
                   <Button asChild variant="ghost">
                       <Link href="/" className="text-sm font-medium transition-colors">
@@ -68,7 +67,8 @@ export default function HeaderSection() {
                       </Link>
                   </Button>
                 </>
-              )}          </nav>
+              )}
+          </nav>
 
             <div className="flex items-center">
               <GetStartedButtonHeader />

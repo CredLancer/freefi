@@ -1,16 +1,8 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { useRouter } from 'next/navigation'
+import GetStartedButtonSection from "./get-started-button-section";
 
 export default function DisclaimerSection() {
-
-  const router = useRouter();
-
-  const disclaimerAction = () => {
-    console.log("Disclaimer Action");
-    router.push("/purpose");
-  };
 
   return (
     <div className="bg-[#f8f9fa] py-16">
@@ -22,11 +14,7 @@ export default function DisclaimerSection() {
           Loan terms and conditions apply.
         </p>
         <div className="flex justify-center mt-12">
-            <Button 
-            className="bg-[#CEFB7B] hover:bg-[#DAFB9D] text-black rounded-md transition-colors duration-200"
-            onClick={ () => disclaimerAction()}>
-              Get Started
-            </Button>
+          <GetStartedButtonSection />
         </div>
       </div>
     </div>

@@ -1,7 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { getDefaultWallets, RainbowKitProvider, connectorsForWallets } from '@rainbow-me/rainbowkit';
+
+import { getDefaultWallets, RainbowKitProvider, connectorsForWallets, darkTheme, lightTheme, Theme } from '@rainbow-me/rainbowkit';
 import type { AppProps } from 'next/app';
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
 import {
@@ -104,7 +105,15 @@ export function Providers({ children }: { children: React.ReactNode }) {
 
     return (
       <WagmiConfig config={config}>
-        <RainbowKitProvider chains={chains} appInfo={demoAppInfo}>
+        <RainbowKitProvider
+          coolMode={true}
+          chains={chains} 
+          appInfo={demoAppInfo}
+          theme={darkTheme({
+            accentColor: '#CEFB7B',
+            accentColorForeground: 'black',
+            borderRadius: 'medium',
+          })}>
           {mounted && children}
         </RainbowKitProvider>
       </WagmiConfig>

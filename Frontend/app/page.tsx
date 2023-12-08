@@ -8,19 +8,12 @@ import App from 'next/app';
 import ApplyForLoanSection from '@/components/apply-for-loan-section';
 import DisclaimerSection from '@/components/disclaimer-section';
 import FooterSection from '@/components/footer-section';
+import HeaderLandingSection from '@/components/header-landing-section';
 
 export default function Home() {
   return (
     <>
-    {/* // <main className="flex flex-col items-center justify-between p-24">
-    //   <div className="items-center justify-center">
-    //     <ConnectButton />
-    //     </div>     
-    //     <br />
-    //     <div className="items-center justify-center">
-    //     <Button>Click me</Button>
-    //   </div>
-    // </main> */}
+      <HeaderLandingSection />
       <HeroSection />
       <HowWorksSection />
       <ApplyForLoanSection />

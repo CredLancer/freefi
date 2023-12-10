@@ -41,7 +41,7 @@ import {
   walletConnectWallet,
 } from '@rainbow-me/rainbowkit/wallets';
 
-const allowedChains = [avalancheFuji, polygonMumbai]
+const allowedChains = [avalancheFuji]
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   allowedChains,

@@ -1,7 +1,7 @@
 # FreedFi
-**Smart Contracts **
+Smart Contracts 
 
-**Get a loan **
+Get a loan
 
 This contract allows users to borrow and repay funds.<br>
 This smart contract is a basic lending platform written in Solidity. It allows users to borrow funds from a lender and repay the borrowed amount. Key features include tracking user balances, borrowed amounts, and the status of active loans.<br>

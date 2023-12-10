@@ -59,7 +59,7 @@ export default function RequestLoanSection() {
       chain: avalancheFuji
     }).then((result) => {
       console.log(result);
-        //router.push("/dashboard");
+        router.push("/dashboard");
     }).catch((error) => {
       console.log(error);
     });

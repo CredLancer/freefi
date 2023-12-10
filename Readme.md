@@ -3,7 +3,7 @@
 
 **Get a loan **
 
-This contract allows users to borrow and repay funds.(<br>)
+This contract allows users to borrow and repay funds.<br>
 This smart contract is a basic lending platform written in Solidity. It allows users to borrow funds from a lender and repay the borrowed amount. Key features include tracking user balances, borrowed amounts, and the status of active loans.(<br>)
 	•			Deployment Information:(<br>)
 	•	If you have deployed the contract using Remix or a development environment, check the deployment logs or transaction details for the deployed contract's address.(<br>)

@@ -1,5 +1,5 @@
 # FreedFi
-Smart Contracts 
+**Smart Contracts **
 
 Get a loan
 
@@ -8,10 +8,10 @@ This smart contract is a basic lending platform written in Solidity. It allows u
 	•			Deployment Information:<br>
 	We have deployed the contract using Remix , the address for the contract is 0xddB6BA183a73a6418eDa8a0feb812ED57116Aa3e <br>
 	•			Blockchain Explorer:<br>
-	We have used a blockchain explorer; Avalanche Explorer (for Avalanche C-Chain)<br>
+	**We have used a blockchain explorer; Avalanche Explorer (for Avalanche C-Chain)<br>**
 	•			Record Keeping:<br>
 	Maintain a record of contract deployments, including contract addresses, deployment dates, and networks (e.g., Avalanche Fuji C-Chain, Ethereum, XDC, Celo, etc.).<br>
-In this Smart Contract we deployed it on Avalanche Fuji C-Chain <br>
+In this Smart Contract we deployed it on **Avalanche Fuji C-Chain** <br>
 Explanation: 
 - State Variables:<br>
   - `owner`: Address of the contract owner.<br>

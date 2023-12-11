@@ -57,3 +57,4 @@ In this Smart Contract we deployed it on **Avalanche Fuji C-Chain** <br>
   - `deposit`: Allows the owner to deposit funds into their balance.<br>
   - `getBalance`: Retrieves the caller's balance.<br>
   - `getBorrowedAmount`: Retrieves the amount borrowed by the caller.<br>
+![image](https://github.com/CredLancer/freefi/assets/149180655/abe5f4db-7726-46b0-8507-9857405893cd)

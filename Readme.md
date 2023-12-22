@@ -1,5 +1,5 @@
-# FreeFi
-FreeFi is at the forefront of empowering freelancers with financial freedom by transforming the lending industry. Through our innovative community lending framework, we provide loans supported by the skills of contractors. By utilizing decentralized finance methods and Trust Credentials, we introduce transparency, accountability, and instantaneous credit scoring to the lending process.<br>
+# FreedFi
+FreedFi is at the forefront of empowering freelancers with financial freedom by transforming the lending industry. Through our innovative community lending framework, we provide loans supported by the skills of contractors. By utilizing decentralized finance methods and Trust Credentials, we introduce transparency, accountability, and instantaneous credit scoring to the lending process.<br>
 
 Be a part of our journey to redefine the lending landscape, offering a secure, on-chain solution for DAOs, communities, member organizations, and beyond. Join us in shaping the future of lending with a trustless approach.<br>
 ## Problems we are solving 
@@ -17,7 +17,7 @@ Notably, there is currently no decentralized lending platform facilitating priva
 ## Smart Contracts 
 
 **Get a loan**<br>
-Trustless & Transparent: Smart contracts are used for loan requests, transfers and trust credential issuance. FreedFi ensures a seamless and efficient experience for both freelancers and investors.<br>
+Trustless & Transparent: Smart contracts are used for loan requests, transfers, and trust credential issuance. FreedFi ensures a seamless and efficient experience for both freelancers and investors.<br>
 
 GetaLoan.sol https://github.com/captainahab0x/freedfi/blob/main/contracts/src/GetALoan.sol <br>
 
